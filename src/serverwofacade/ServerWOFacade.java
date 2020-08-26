@@ -9,6 +9,8 @@ public class ServerWOFacade {
     public static void main(String[] args) {
         MyFacade obj = MyFacade.getMyFacadeObj();
         obj.start();
+     	System.out.println("Start working......");
+        System.out.println("After work done.........");
         obj.stop();
     }
     
